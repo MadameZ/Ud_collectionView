@@ -31,6 +31,11 @@ class RoundedImage: UIImageView {
         self.layer.cornerRadius = frame.width / 2
         self.layer.borderColor = UIColor.darkGray.cgColor
         self.layer.borderWidth = 1
+        contentMode = .scaleAspectFill
+    }
+    
+    func updateRadius(radius: CGFloat) {
+        layer.cornerRadius = radius
     }
 
 }

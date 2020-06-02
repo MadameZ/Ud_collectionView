@@ -23,6 +23,12 @@
 		BD15A096248130A300A55078 /* MyFirstCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD15A095248130A300A55078 /* MyFirstCell2.swift */; };
 		BD15A0982481348B00A55078 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD15A0972481348B00A55078 /* ShadowView.swift */; };
 		BD15A09A2481439200A55078 /* MyTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD15A0992481439200A55078 /* MyTableView.swift */; };
+		BD15A0CD24865C3500A55078 /* MyCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD15A0CC24865C3500A55078 /* MyCollectionController.swift */; };
+		BD15A0CF24865C5800A55078 /* MyViewControllerCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD15A0CE24865C5800A55078 /* MyViewControllerCollection.swift */; };
+		BD15A0D124865E8700A55078 /* MycollectionCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD15A0D024865E8700A55078 /* MycollectionCell1.swift */; };
+		BD15A0D32486868400A55078 /* MyCollectionCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD15A0D22486868400A55078 /* MyCollectionCell2.swift */; };
+		BD15A0D5248688F900A55078 /* MyFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD15A0D4248688F900A55078 /* MyFlowLayout.swift */; };
+		BD15A0D7248697DF00A55078 /* HeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD15A0D6248697DF00A55078 /* HeaderReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +50,12 @@
 		BD15A095248130A300A55078 /* MyFirstCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstCell2.swift; sourceTree = "<group>"; };
 		BD15A0972481348B00A55078 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		BD15A0992481439200A55078 /* MyTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableView.swift; sourceTree = "<group>"; };
+		BD15A0CC24865C3500A55078 /* MyCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionController.swift; sourceTree = "<group>"; };
+		BD15A0CE24865C5800A55078 /* MyViewControllerCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewControllerCollection.swift; sourceTree = "<group>"; };
+		BD15A0D024865E8700A55078 /* MycollectionCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MycollectionCell1.swift; sourceTree = "<group>"; };
+		BD15A0D22486868400A55078 /* MyCollectionCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionCell2.swift; sourceTree = "<group>"; };
+		BD15A0D4248688F900A55078 /* MyFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFlowLayout.swift; sourceTree = "<group>"; };
+		BD15A0D6248697DF00A55078 /* HeaderReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +96,8 @@
 				BD15A081247D263F00A55078 /* MyTableViewController.swift */,
 				BD15A083247D278B00A55078 /* MyCustomTableView.swift */,
 				BD15A089247EC05800A55078 /* DetailViewController.swift */,
+				BD15A0CC24865C3500A55078 /* MyCollectionController.swift */,
+				BD15A0CE24865C5800A55078 /* MyViewControllerCollection.swift */,
 			);
 			path = tableview_tableViewController;
 			sourceTree = "<group>";
@@ -107,6 +121,10 @@
 				BD15A091247FE48200A55078 /* MyFirstCell.swift */,
 				BD15A095248130A300A55078 /* MyFirstCell2.swift */,
 				BD15A0992481439200A55078 /* MyTableView.swift */,
+				BD15A0D024865E8700A55078 /* MycollectionCell1.swift */,
+				BD15A0D22486868400A55078 /* MyCollectionCell2.swift */,
+				BD15A0D4248688F900A55078 /* MyFlowLayout.swift */,
+				BD15A0D6248697DF00A55078 /* HeaderReusableView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -201,11 +219,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD15A06E247D260C00A55078 /* AppDelegate.swift in Sources */,
+				BD15A0CF24865C5800A55078 /* MyViewControllerCollection.swift in Sources */,
 				BD15A070247D260C00A55078 /* SceneDelegate.swift in Sources */,
 				BD15A096248130A300A55078 /* MyFirstCell2.swift in Sources */,
 				BD15A092247FE48200A55078 /* MyFirstCell.swift in Sources */,
+				BD15A0D124865E8700A55078 /* MycollectionCell1.swift in Sources */,
 				BD15A084247D278B00A55078 /* MyCustomTableView.swift in Sources */,
+				BD15A0D32486868400A55078 /* MyCollectionCell2.swift in Sources */,
+				BD15A0CD24865C3500A55078 /* MyCollectionController.swift in Sources */,
 				BD15A086247D288700A55078 /* Country.swift in Sources */,
+				BD15A0D7248697DF00A55078 /* HeaderReusableView.swift in Sources */,
 				BD15A08C247FD83600A55078 /* Continent.swift in Sources */,
 				BD15A082247D263F00A55078 /* MyTableViewController.swift in Sources */,
 				BD15A09A2481439200A55078 /* MyTableView.swift in Sources */,
@@ -213,6 +236,7 @@
 				BD15A094247FECD500A55078 /* RoundedImage.swift in Sources */,
 				BD15A088247D29C200A55078 /* CountryGetter.swift in Sources */,
 				BD15A08A247EC05800A55078 /* DetailViewController.swift in Sources */,
+				BD15A0D5248688F900A55078 /* MyFlowLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
